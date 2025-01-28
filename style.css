@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: darkgoldenrod;
+    color: rgb(10, 9, 9);
+}
+
+div{
+    background-color: rgb(253, 254, 255);
+    width: 35%;
+    padding: 35px 0px;
+    margin: auto;
+    margin-top: 15%;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button{
+background-color: darkred;    
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+font-weight: bold;
+width: 200px;
+border-radius: 5px;
+}
+
+#save-btn{
+    background-color: rgb(23, 43, 223);    
+border: none;
+padding-top: 10px;
+padding-bottom: 10px;
+color: white;
+font-weight: bold;
+width: 200px;
+border-radius: 5px;
+margin-top: 10px;
+}
+
+#save-el{
+    padding-top: 18px;  
+}
+
+@media screen and (max-width: 992px){
+    div{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    div{
+        width: 90%;
+        margin-top: 50%;
+    }
+
+
+}
